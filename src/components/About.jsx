@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in designing and implementing scalable APIs. 
-        I'm a quick learner and collaborate closely with the team to
-        develop efficient, scalable, and user-friendly solutions that solve
-        real-world problems.  <br />
-        My Research interest lies in Machine Learning and Computer Graphics!
+      Experienced software developer with a passion for crafting scalable APIs and a diverse background in the ever-evolving tech landscape. I thrive on the challenge of designing robust systems that adapt and scale seamlessly. With hands-on experience across various facets of the tech industry, I bring a versatile perspective to every project, ensuring innovation and efficiency in every line of code.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

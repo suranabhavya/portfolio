@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="grid grid-cols-3 mt-5">
           {socials.map((social) => (
             <div className="mt-10">
-              <a href={social.link}><img src={social.icon} alt={social.social} className="w-12 h-12 object-contain" /></a>
+              <a href={social.link} target="_blank"><img src={social.icon} alt={social.social} className="w-12 h-12 object-contain" /></a>
               {/* <a href={contact.link}>{contact.text}</a> */}
             </div>
           ))}
@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="mt-12">
           {contacts.map((contact) => (
             <div className="grid grid-cols-9 mt-5">
-              <a href={contact.link}><img src={contact.icon} alt={contact.social} className="w-6 h-6 object-contain" /></a>
+              <a href={contact.link} target="_blank"><img src={contact.icon} alt={contact.social} className="w-6 h-6 object-contain" /></a>
               <p>{contact.text}</p>
             </div>
           ))}
