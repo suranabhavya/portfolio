@@ -482,12 +482,6 @@ import {
 
   const contacts = [
     {
-      social: "Phone",
-      icon: phone,
-      link: "",
-      text: "+919001675620"
-    },
-    {
       social: "Email",
       icon: email,
       link: "",
