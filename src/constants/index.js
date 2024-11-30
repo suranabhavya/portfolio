@@ -24,6 +24,7 @@ import {
     tau,
     algoUni,
     fruitiet,
+    bu,
     mps,
     edmunds,
     tietWhite,
@@ -58,7 +59,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
@@ -77,22 +78,16 @@ import {
 
   const educations = [
     {
+      school: "Boston University",
+      duration: "2024-2025",
+      grade: "4.0/4.0",
+      icon: bu
+    },
+    {
       school: "Thapar Institute of Engineering and Technology",
       duration: "2018-2022",
-      grade: "8.24/10",
+      grade: "3.4/4.0",
       icon: tietWhite
-    },
-    {
-      school: "St. Edmunds, Jaipur",
-      duration: "2016-2018",
-      grade: "90/100",
-      icon: edmunds
-    },
-    {
-      school: "Maheshwari Public School, Jaipur",
-      duration: "2006-2016",
-      grade: "9.2/10",
-      icon: mps
     },
   ];
   
@@ -159,9 +154,11 @@ import {
       iconBg: "#FFFFFF",
       date: "Aug 2022 - Present",
       points: [
-        "Developed and optimized various complex APIs in DRF with enhanced queries, significantly reducing overall response times for each API call",
-        "Standardized error and exception handling through effective cross-team communication, resulting in reduced error rates and substantial cost savings.",
-        "Developed comprehensive unit test cases for all APIs, covering various corner cases and edge scenarios to ensure robust functionality and code reliability also developed automated batch tests to streamline testing time.",
+        "Engineered and optimized high-performance APIs using Django Rest Framework (DRF), resolving N+1 query issues through query optimization. Leveraged API profiling & database indexing to enhance response times, improving latency by over 40%.",
+        "Implemented Redis caching techniques to enhance API response times by over 200ms, leveraging asynchronous processing.",
+        "Leveraged Celery to architect and manage distributed task queues , enabling efficient asynchronous workload processing. Optimized task scheduling, error handling, and retries, improving system reliability and reducing processing latency by 60%.",
+        "Created over 100 comprehensive unit and integration test cases for all APIs using pytest, covering various edge cases to ensure robust functionality & code reliability; also developed automated batch tests, increasing test coverage from 15% to 90%.",
+        "Skills: Django REST Framework · Docker · Kubernetes · Django · React.js · Node.js"
       ],
     },
     {
@@ -182,7 +179,9 @@ import {
       iconBg: "#FFFFFF",
       date: "Jan 2022 - July 2022",
       points: [
-        "Contributed to the Investment Banking Technology team by developing scalable APIs, optimizing forex trading software, and improving overall efficiency",
+        "Designed scalable APIs & optimized forex trading software for the Investment Banking Technology team using Java Spring Boot, improving system efficiency & swiftly resolving production issues to ensure client satisfaction, reducing resolution time by 80%.",
+        "Recognized for dedication & technical expertise, resulting in the conversion of my internship into a Pre-Placement Offer (PPO).",
+        "Skills: Sprint boot · React.js · Node.js",
       ],
     },
     {
@@ -192,7 +191,8 @@ import {
       iconBg: "#FFFFFF",
       date: "July 2021 - Aug 2021",
       points: [
-        "Involved in Chaos Engineering project to assess application robustness. I led the development of a full stack application from scratch using React, Redux and Flask to facilitate interaction between POC applications and third-party software, Gremlin, as an integral part of Chaos Engineering testing efforts",
+        "Led the development of a full-stack Node.js application utilizing ReactJS, Redux, and Flask, facilitating interaction between POC applications and third-party software, Gremlin, reducing failures by 70% during Chaos Engineering tests to ensure robustness.",
+        "Skills: Flask · React.js · Node.js",
       ],
     },
     {
@@ -203,7 +203,7 @@ import {
       date: "Oct 2020 - Dec 2020",
       points: [
         "Artificial Intelligence-based Digital Village System is a Project carried out jointly by Thapar Institute of Engineering and Technology (TIET) and Tel Aviv University, Israel (TAU) in a project funded by MHRD-YFRF.",
-        "Developing a survey application for Digital Village Project which helps in collecting field data from farmers in their regional language and capture the visual data of crops for weed detection and crop disease identification.",
+        "Developed an android survey app using Java in Android Studio for the Digital Village Project , reducing manual data entry by 90% & improving data accuracy by using vertical stepper APIs , camera module integration for weed/disease detection, and geo-location API for location-specific accuracy. Additionally, created custom SDKs to support seamless third-party integrations.",
         "For more information visit: https://www.digital-village.co.in/",
         "Skills: Internet of Things (IoT) · Kotlin · Android Studio · Android Development · Data Analysis · Institutional Research · Artificial Intelligence (AI)"
       ],
@@ -215,8 +215,8 @@ import {
       iconBg: "#FFFFFF",
       date: "July 2020 - Sep 2020",
       points: [
-        "Worked on the Kaptain-11 Project with more than 100,000 users, developed the back-end for the registration system and designed the necessary APIs for third-party authentication using Django.",
-        "Developed a log system for customer support team, generating a file stating all the errors in the software used to go through the issues faced by the users.",
+        "Contributed to the Kaptain-11 Project, serving over 100,000 users , by developing the back-end for the registration system. Implemented essential APIs using Django for seamless third-party authentication , improving user access and security.",
+        "Implemented a Python-based log system that generates a file documenting detailed error reports encountered by users, significantly reducing debugging time by 70% and improving software quality.",
         "Skills: Python (Programming Language) · JavaScript · Django",
       ],
     },
@@ -257,6 +257,7 @@ import {
         "Contributed significantly to the main pipeline by developing and customizing options in Autodesk Maya, enabling the efficient channeling of a substantial stream of small objects from a broader source to a narrower one using Python-based vector techniques.",
         "Involved in the processes of Python Scripting for Maya, Basic Rigging, Blend-shape Generation and Node Tree Construction for the Oddbods ",
         "Worked on some of the most well known and award winning shows from Disney and Netflix namely Oddbods and Sharkdog.",
+        "Skills: Python (Programming Language) · Autodesk Maya · Unity · Blender",
       ],
     },
   ];
@@ -282,7 +283,7 @@ import {
     },
     {
       testimonial:
-        "Certification of Sevice for Software Developer Internship @ UBS Business Solutions",
+        "Certification of Service for Software Developer Internship @ UBS Business Solutions",
       link: "https://drive.google.com/file/d/1hAg31s4BE2ihh4HywTpau1aMtsxEZAFQ/view?usp=sharing",
       name: "Vikash Mitruka",
       designation: "Executive Director",
@@ -442,12 +443,12 @@ import {
   ];
 
   const socials = [
-    {
-      social: "Instagram",
-      icon: instagram,
-      link: "https://www.instagram.com/suraanaaa/",
-      text: "Instagram"
-    },
+    // {
+    //   social: "Instagram",
+    //   icon: instagram,
+    //   link: "https://www.instagram.com/suraanaaa/",
+    //   text: "Instagram"
+    // },
     {
       social: "Linkedin",
       icon: linkedin,
@@ -460,24 +461,24 @@ import {
       link: "https://github.com/suranabhavya",
       text: "Github"
     },
-    {
-      social: "Facebook",
-      icon: facebook,
-      link: "https://www.facebook.com/bhavya.surana.52/",
-      text: "Facebook"
-    },
+    // {
+    //   social: "Facebook",
+    //   icon: facebook,
+    //   link: "https://www.facebook.com/bhavya.surana.52/",
+    //   text: "Facebook"
+    // },
     {
       social: "Website",
       icon: website,
       link: "https://suranabhavya.github.io/portfolio/",
       text: "Website"
     },
-    {
-      social: "Spotify",
-      icon: spotify,
-      link: "https://open.spotify.com/user/8wy0rxx7qbbweqnctfr7ajsrg",
-      text: "Spotify Profile"
-    },
+    // {
+    //   social: "Spotify",
+    //   icon: spotify,
+    //   link: "https://open.spotify.com/user/8wy0rxx7qbbweqnctfr7ajsrg",
+    //   text: "Spotify Profile"
+    // },
   ];
 
   const contacts = [

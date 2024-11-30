@@ -55,7 +55,7 @@ const Education = () => {
         </h2>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {educations.map((education, index) => (
           <EducationCard key={education.school} index={index} {...education} />
         ))}

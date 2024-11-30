@@ -35,7 +35,7 @@ const ProjectCard = ({
           }}
           className='bg-tertiary p-5 rounded-2xl sm:w-[335px] w-full'
         >
-          <div className='relative w-full h-[230px]'>
+          {/* <div className='relative w-full h-[230px]'>
             <img
               src={image}
               alt='project_image'
@@ -54,10 +54,20 @@ const ProjectCard = ({
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className='mt-5'>
-            <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <div className='mt-3'>
+            <h3 className='text-white font-bold text-[18px]'>
+              <a
+                href={source_code_link}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='hover:underline'
+              >
+                {name}
+              </a>
+            </h3>
+            {/* <h3 className='text-white font-bold text-[24px]'>{name}</h3> */}
             <p className='mt-2 text-secondary text-[14px]'>{description}</p>
           </div>
 

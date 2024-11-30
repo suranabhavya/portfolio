@@ -31,6 +31,7 @@ import tau from "./company/tau.png";
 import algoUni from "./company/algo-uni.png";
 import fruitiet from "./company/fruitiet.png";
 
+import bu from "./education/bu.png";
 import mps from "./education/mps.png";
 import edmunds from "./education/edmunds.png";
 import tietWhite from "./education/tiet-white.png";
@@ -83,6 +84,7 @@ export {
   oneAnimation,
   ubs,
   ms,
+  bu,
   tiet,
   tau,
   algoUni,
