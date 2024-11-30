@@ -296,7 +296,7 @@ import {
     {
       name: "Quest of the Braves",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Quest of the Braves is a 3D action-adventure RPG that immerses players in a thrilling combat experience. The game challenges players to strategize and fight their way through dangerous enemies to rescue hostages from perilous situations. With engaging mechanics and a captivating storyline, it offers a dynamic blend of action, exploration, and heroism.",
       tags: [
         {
           name: "react",
@@ -317,7 +317,7 @@ import {
     {
       name: "IEP Thapar",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "International Engineering Program (IEP) website at Thapar Institute of Engineering & Technology, a central resource for students to learn about international programs. This program offers students the opportunity to begin their engineering education at Thapar and complete it at one of several esteemed international partner universities.",
       tags: [
         {
           name: "react",
@@ -336,30 +336,9 @@ import {
       source_code_link: "https://iep.thapar.edu/",
     },
     {
-      name: "Fruits Price Prediciton",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "Camigence App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Camigence App is a cutting-edge project designed to process CCTV camera footage and apply machine learning models for real-time analysis. It includes features like fire detection and other critical event recognitions, aiming to enhance surveillance capabilities and ensure timely responses to potential hazards.",
       tags: [
         {
           name: "nextjs",
@@ -380,7 +359,7 @@ import {
     {
       name: "Digital Village Survey App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This app facilitates the monitoring and regulation of agricultural activities through various survey forms, including Farmer’s Profile, Plot Tracker, Weekly Surveys, Crop Disease, and Farm Pictures. The app features an interactive UI based on Google’s Material Design and utilizes technologies such as Firebase Realtime Database and Firebase Authentication to securely store data in real-time.",
       tags: [
         {
           name: "nextjs",
@@ -401,7 +380,7 @@ import {
     {
       name: "AR Car Showroom",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The AR-CAR-Showroom is a professional car showroom application that integrates augmented reality (AR) with voice command capabilities. By combining Vuforia’s AR technology, the Unity game engine, and a cloud-based machine learning AI for voice control, it allows users to interact with virtual car models in real-world environments. Users can view, manipulate, and receive information about various car models through intuitive voice commands, providing an immersive and interactive experience.",
       tags: [
         {
           name: "nextjs",
@@ -422,7 +401,7 @@ import {
     {
       name: "US Police Data Visualization",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The US Police Data Visualization project utilizes Node.js, React, and Chart.js to create interactive visualizations of criminal statistics from various sources. It provides an accessible platform for analyzing and understanding crime data across the United States.",
       tags: [
         {
           name: "nextjs",
