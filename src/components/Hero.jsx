@@ -23,8 +23,8 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-5 text-white-100`}>
             🖥️ Technology Enthusiast <br className='sm:block hidden' />
             🧠 Skilled Software Developer <br className='sm:block hidden' />
-            🚀 Developing scalable solutions<br className='sm:block hidden' />
-            🌍 for complex real-world problems <br className='sm:block hidden' />
+            🚀 Turning Ideas into Reality<br className='sm:block hidden' />
+            🌍 Building Code, Shaping Futures<br className='sm:block hidden' />
           </p>
         </div>
       </div>
